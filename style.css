@@ -279,3 +279,59 @@ body {
   font-size: 16px;
 }
 
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px 2px rgb(20 112 51 / 34%);
+  width: 100%;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+    font-size: 30px;
+    margin-bottom: 53px;
+    margin-top: -46px;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #475a3b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center; /* Centre le texte dans le pied de page */
+  margin-top: 20px; /* Espacement au-dessus du pied de page */
+  font-size: 14px; /* Taille de la police */
+  color: #777; /* Couleur grise claire du texte */
+  background-color: #46352A;
+  font-family: sans-serif;
+}
+
+img {
+
+
+
+
+}

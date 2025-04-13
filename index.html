@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <!-- header -->
+
   <header>
     <img id="logo" src="lueur_parfum.svg">
     <nav>
@@ -20,6 +22,7 @@
   </header>
 
   <!-- 1er section -->
+
   <section class="hero">
     <div class="hero-left">
       <img src="https://beautes-opera.com/wp-content/uploads/2019/04/Blog_Bougies_Quels-sont-les-bienfaits-des-bougies.jpg">
@@ -31,6 +34,7 @@
   </section>
 
   <!-- 2e section -->
+
   <section class="why-choose-us">
     <h2>Pourquoi acheter nos bougies ?</h2>
     <p>Bienvenue chez Lueur & Parfum, une boutique artisanale où chaque bougie est coulée à la main avec amour. Nos parfums sont inspirés de la nature, des saisons et des souvenirs...</p>
@@ -57,10 +61,13 @@
   </section>
 
   <!-- section 3 -->
+
     <section class="the-last">
       <h3>NOS DERNIÈRES BOUGIES</h3>
       <div class="product-list">
+
         <!-- première card -->
+
         <div class="card">
           <img
             src="https://www.bougiesdumonde.fr/cdn/shop/files/image_937fe276-ab21-438e-a5e8-18b624fde8a7.jpg?v=1711544876&width=535">
@@ -71,7 +78,9 @@
             <button>Ajouter dans mon panier</button>
           </div>
         </div>
+
         <!-- 2eme card -->
+
         <div class="card">
           <img
             src="https://media.cdnws.com/_i/111316/3467/718/71/19.jpeg">
@@ -82,7 +91,9 @@
             <button>Ajouter dans mon panier</button>
           </div>
         </div>
+
         <!-- 3eme card -->
+
         <div class="card">
           <img
             src="https://www.durance.fr/7824-image_produit/bougie-parfumee-fleur-de-coton.jpg">
@@ -97,22 +108,27 @@
     </section>
 
   <!-- section 4 -->
-  <h4>Nous Contacter</h4>
-  <section class="section-4">
-      <form action="/soumettre" method="post">
-        <label for="nom">Nom</label>
-        <input type="text" id="nom" name="nom" required>
+  <h1>Nous contacter</h1>
+  <div class="container">
+    <form class="contact-form">
+        <label for="name">Nom</label>
+        <input type="text" id="name" name="name" required>
+
         <label for="email">Mail</label>
         <input type="email" id="email" name="email" required>
+
         <label for="message">Message</label>
-        <textarea id="message" name="message" rows="4" cols="50" required></textarea>
-        <input type="submit" value="Envoyer">
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Envoyer</button>
     </form>
+  </div>
 
     <!-- barre en bas -->
 
-    <section class="barre-en-bas">
-      <img src="lueur_parfum.svg">
-    </section>
+    <footer>
+      <img src="lueur_parfum.svg" id="logo4"
+      <p>Bougies artisanales coulées à la main en France, avec des ingrédients naturels et un soupçon de magie.</p>
+    </footer>
 </body>
 </html>
